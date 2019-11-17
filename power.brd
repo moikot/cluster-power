@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -933,6 +933,9 @@
 <vertex x="34.184959375" y="14.13856875"/>
 </polygon>
 <text x="32" y="18" size="3.81" layer="22" font="vector" rot="MR0">?</text>
+<wire x1="15.5" y1="34.5" x2="12.5" y2="34.5" width="0.127" layer="21" curve="-180"/>
+<wire x1="35.5" y1="34.5" x2="32.5" y2="34.5" width="0.127" layer="21" curve="-180"/>
+<wire x1="55.5" y1="34.5" x2="52.5" y2="34.5" width="0.127" layer="21" curve="-180"/>
 </plain>
 <libraries>
 <library name="sanisimov">
